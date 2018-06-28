@@ -12,7 +12,7 @@ public class MvcDemo {
 
     public static void main(String[] args) {
 
-        //fetch student data based on ID
+        //fetch employee data based on ID
         Employee model = fetchEmployee();
 
         //creates view to show employee data
