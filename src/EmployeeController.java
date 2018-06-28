@@ -18,20 +18,20 @@ public class EmployeeController {
         this.view = view;
     }
 
-    public void setEmployeeName(String name) {
-        model.setName(name);
-    }
-
-    public String getEmployeeName() {
-        return model.getName();
-    }
-
     public void setEmployeeId(String empId) {
         model.setEmployeeId(empId);
     }
 
     public String getEmployeeId() {
         return model.getEmpId();
+    }
+
+    public void setEmployeeName(String name) {
+        model.setName(name);
+    }
+
+    public String getEmployeeName() {
+        return model.getName();
     }
 
     public void updateView() {
